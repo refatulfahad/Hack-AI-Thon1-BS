@@ -1,1 +1,1 @@
-# Hack-AI-Thon1-BS
+# To run the project, Please insert OpenAI API key in .env file
