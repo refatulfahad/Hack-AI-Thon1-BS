@@ -24,6 +24,7 @@
 from dotenv import load_dotenv
 load_dotenv()
 from langchain import OpenAI,SQLDatabase,SQLDatabaseChain
+from langchain.document_loaders import TextLoader,DirectoryLoader
 
 dburi='sqlite:///../queryWithDatabase/AI.db'
 db=SQLDatabase.from_uri(dburi)
@@ -42,3 +43,4 @@ db_chain.run('BFS space complexity')
 db_chain.run('explain dfs algorithm')
 db_chain.run('explain bfs algorithm')
 db_chain.run('What is the first neural network called?')
+db_chain.run('Which approach dominate the field of speech recognition?')

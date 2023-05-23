@@ -1,13 +1,6 @@
 langchain
-llama-index
-numpy
 openai
 pandas
 pydantic
 python-dotenv
-scikit-learn
-scipy
-sentence-transformers
-sentencepiece
-tokenizers
-SQLAlchemy
+# SQLAlchemys
